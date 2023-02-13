@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+}
+
+header {
+
+    height: 60px;
+    text-align: center;
+    background-color: #FAEAB1;
+
+}
+
+.menu {
+    padding: 15px 60px;
+    text-align: center;
+
+}
+
+.menu a {
+    margin: auto 30px;
+    font-size: 24px;
+    color: #C58940;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #d1ae77;
+    text-decoration: underline;
+    transition: all;
+}
+
+.title-banner {
+    height: 100px;
+    background-image: url(../images/bannerImage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10%;
+
+}
+
+.title-banner h1 {
+    font-size: 42px;
+    color: white;
+}
+
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fefae0;
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    width: 60%;
+    padding: 0 10%;
+}
+
+.more-content {
+    width: 30%;
+    padding: 5%;
+}
+
+.more-content a {
+    display: block
+}
+
+main h3 {
+    font-size: 32px;
+    margin: 10px 0px;
+    color: #C58940;
+}
+
+main p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+aside h2 {
+    color: #C58940;
+    margin-bottom: 20px;
+}
+
+aside a {
+    margin: 15px 5px;
+    text-decoration: none;
+    color: #C58940;
+}
+
+aside a:hover {
+    color: #d1ae77;
+
+}
+
+section img {
+    height: 300px
+}
+
+.comments {
+    background-color: #fefae0;
+    padding: 30px 10%;
+}
+
+.comments h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    margin: 15px;
+    color: #C58940;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid#bb9457;
+    border-radius: 4px;
+    background-color: #FAEAB1;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+}
+
+.comments button {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #bb9457;
+    color: #FAEAB1;
+}
+
+.comments button:hover {
+    background-color: #FAEAB1;
+    color: #C58940;
+}
+
+footer {
+    padding: 30px 10%;
+    background-color: #bb9457;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.subscribe {
+    margin-bottom: 20px;
+    color: #FAEAB1;
+    font-size: 18px;
+}
+
+.subscribe input {
+    width: 50%;
+    height: 30px;
+    border: #bb9457;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.subscribe button {
+    height: 30px;
+    width: auto;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FAEAB1;
+    color: #bb9457;
+}
+
+.subscribe button:hover {
+    background-color: #C58940;
+    color: #FAEAB1;
+}
+
+#contact-us {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    color: #FAEAB1;
+    font-size: 16px;
+}
+
+.copyrights {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FAEAB1;
+}
